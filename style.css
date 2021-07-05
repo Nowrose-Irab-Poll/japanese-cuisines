@@ -5,13 +5,17 @@ body {
 }
 
 h1 {
-  font-family: Poppins;
   font-size: 60px;
   font-style: normal;
   font-weight: 800;
   line-height: 78px;
   letter-spacing: -0.02em;
   text-align: left;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-size: 40px;
 }
 
 p {
@@ -27,8 +31,6 @@ p {
 
 .flexible-container {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .link-button {
@@ -38,18 +40,33 @@ p {
   padding: 20px 30px;
   text-decoration: none;
   background-image: linear-gradient(to left, #13b6ff, #a5d4ff);
-  border-radius: 20%;
   font-size: 18px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .width-half {
   width: 50%;
-  padding: 0%;
+  padding: 2%;
+}
+
+.half-left {
+  margin-left: 5%;
+}
+
+.half-right {
+  margin-right: 5%;
 }
 
 .width-half img {
   width: 100%;
 }
 
-#top-banner {
+/* ids */
+
+#about-section {
+  background-image: url(images/Frame-57.jpg);
+  background-repeat: no-repeat;
 }
