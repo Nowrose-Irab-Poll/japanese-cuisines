@@ -100,9 +100,12 @@ p {
   color: #13b6fc;
 }
 
-.color-orange {
+.color-orange-gradient {
   color: #fba24f;
   /* color: #FF1E1E; */
+  background: -webkit-linear-gradient(#fba24f, #ff1e1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .color-white {
