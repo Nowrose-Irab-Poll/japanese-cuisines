@@ -150,6 +150,11 @@ p {
   margin-right: 0;
 }
 
+.image-icon img {
+  height: 40px;
+  width: 30px;
+}
+
 .link-button {
   margin-top: 40px;
   display: inline-block;
