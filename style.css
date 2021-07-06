@@ -70,7 +70,7 @@ p {
   width: 33%;
   padding: 2%;
   margin: 2%;
-  box-shadow: 1px 1px 20px 1px grey;
+  box-shadow: 0px 0px 20px 0px grey;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -158,7 +158,7 @@ p {
   display: flex;
   margin-left: 7%;
   margin-right: 7%;
-  box-shadow: 0px 0px 30px 1px grey;
+  box-shadow: 0px 0px 20px 0px grey;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -182,6 +182,48 @@ p {
 
 .stat-bar-item p {
   margin-top: 2px;
+}
+
+.topnav {
+  display: flex;
+  height: 60px;
+  background-color: #0b0d17;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: white;
+}
+
+.topnav img {
+  height: 60px;
+  width: 60px;
+}
+
+.topnav h3 {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #5b5b5b;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.topnav-half {
+  width: 50%;
+  padding-left: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.topnav-item {
+  width: 25%;
+  border-color: wheat;
+  border-left: 2px solid;
+  padding-left: 5px;
 }
 
 .width-half {
