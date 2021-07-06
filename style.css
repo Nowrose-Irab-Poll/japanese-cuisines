@@ -15,8 +15,8 @@ body {
 footer {
   margin-top: 50px;
   background-color: #0b0d17;
-  width: 1440px;
   height: 256px;
+  width: 100%;
 }
 
 footer p {
@@ -25,6 +25,7 @@ footer p {
 }
 
 footer h3 {
+  font-family: "Montserrat", sans-serif;
   display: inline-block;
   text-transform: uppercase;
   color: #5b5b5b;
@@ -101,7 +102,8 @@ p {
 }
 
 .color-orange-gradient {
-  background: -webkit-linear-gradient(#fba24f, #ff1e1e);
+  background-image: linear-gradient(to right, #fba24f, #fc8043);
+  /* background: -webkit-linear-gradient(#fba24f, #ff1e1e); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
